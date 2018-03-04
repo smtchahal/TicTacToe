@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Unbeatable Tic Tac Toe</string>
+    <string name="action_you_first">You First (O)</string>
+    <string name="action_pc_first">PC First (X)</string>
+    <string name="result_you_lose">You lose!</string>
+    <string name="result_game_tied">Game tied!</string>
+    <string name="action_ok">OK</string>
+    <string name="title_please_wait">Please wait…</string>
+    <string name="label_you">You (O):</string>
+    <string name="label_ties">Ties:</string>
+    <string name="label_pc">PC (X):</string>
+    <string name="menu_clear_scores">Clear scores</string>
+</resources>
