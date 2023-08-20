@@ -2,7 +2,6 @@ package com.sumitchahal.tictactoe.ui;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -12,10 +11,12 @@ import android.widget.Button;
 import android.widget.GridView;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.gson.Gson;
 import com.sumitchahal.tictactoe.GameAdapter;
 import com.sumitchahal.tictactoe.R;
 import com.sumitchahal.tictactoe.game.Game;
-import com.google.gson.Gson;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener,
         AdapterView.OnItemClickListener {

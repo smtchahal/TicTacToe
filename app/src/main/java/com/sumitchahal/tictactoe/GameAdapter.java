@@ -3,10 +3,11 @@ package com.sumitchahal.tictactoe;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
-import android.support.v4.content.ContextCompat;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+
+import androidx.core.content.ContextCompat;
 
 import com.sumitchahal.tictactoe.game.Game;
 import com.sumitchahal.tictactoe.game.Point;
